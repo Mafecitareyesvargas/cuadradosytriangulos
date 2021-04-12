@@ -1,0 +1,20 @@
+nav{
+    background-color: black;
+    color: red;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+width: 10%;
+list-style: none;
+}
+
+.menu li{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}

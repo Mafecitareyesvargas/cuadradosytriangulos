@@ -1,12 +1,24 @@
 nav{
     background-color: black;
-    color: red;
-}
+    padding-bottom: 1%;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+          }
 
-.menu{
+  .boton{
+    text-decoration: none;
+    color: #222
+    border: 1px outset #ccc;
+    padding: .1em .5em;
+           }  
+
+    .menu{
     display: flex;
     align-items: center;
-}
+    margin-left: auto;
+    justify-content: center;
+            }
 
 .menu a{
 width: 10%;
@@ -14,7 +26,7 @@ list-style: none;
 }
 
 .menu li{
-    color: red;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
     text-decoration: none;
-}
+          }
